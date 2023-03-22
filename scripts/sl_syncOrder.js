@@ -99,9 +99,6 @@ function get_counts(searchResults) {
 
 // Check in shipstation
 function check_order_existence(so_id, ponum, rsn) {
-  var authorization =
-    "Basic MDZkODVkYjQzZDdlNDY5N2E2MjE0ZmQwNWRjNjRlZmY6YjZkOTI0OGE0MTE3NDE2YTk5OTczZjQ4MTg2OWYxM2Q=";
-
   // Call Shipstation API
   var headers = new Array();
   headers["Authorization"] = authorization;
